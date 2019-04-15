@@ -11,11 +11,13 @@ body {
 .content h1{
   font-size: 18px;
   font-weight: bold;
+  line-height: 2px;
 }
 
 .content h3{
-  font-size: 18px;
+  font-size: 14px;
   font-weight: lighter;
+  line-height: 2px;
 }
 
 .container {
@@ -26,7 +28,7 @@ body {
 
 nav {
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
+  padding: 10px 0 10px 15px;
   position: fixed;
   width: 420px;
   background-color: #000000;
@@ -42,18 +44,20 @@ nav {
   display: block;
   cursor: pointer;
   overflow: hidden;
+  border-bottom: solid;
 }
 
 .arrow {
   text-align: right;
-  padding-right: 15px;
-  padding-top: 20px;
+  padding-right: 20px;
+  padding-top: 25px;
   width: 20%;
   float: right;
   height: 80px;
 }
 
 .content {
+  padding-top: 12px;
   padding-left: 15px;
   padding-right: 10px;
   width: 80%;
